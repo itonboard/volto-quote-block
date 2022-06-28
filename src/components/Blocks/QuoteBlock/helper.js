@@ -23,8 +23,5 @@ export function getDefaultBodyTemplate(config) {
       BodyTemplate = variationsConfig[variation].template;
     }
   }
-  return {
-    bodyTemplate: BodyTemplate,
-    variationId: variationId,
-  };
+  return [BodyTemplate, variationId];
 }

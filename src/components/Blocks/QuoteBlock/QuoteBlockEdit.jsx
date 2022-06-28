@@ -14,7 +14,7 @@ const QuoteBlockEdit = (props) => {
     BodyTemplate = getBodyTemplate(data.variation, config);
     variationId = data.variation;
   } else {
-    ({ BodyTemplate, variationId } = getDefaultBodyTemplate(config));
+    [BodyTemplate, variationId] = getDefaultBodyTemplate(config);
   }
 
   React.useEffect(() => {
