@@ -1,6 +1,10 @@
 import { defineMessages } from 'react-intl';
 
 const messages = defineMessages({
+  settingsTitle: {
+    id: 'settingsTitle',
+    defaultMessage: 'Block settings',
+  },
   variation: {
     id: 'variation',
     defaultMessage: 'Variation',

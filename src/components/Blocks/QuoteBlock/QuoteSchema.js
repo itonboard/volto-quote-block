@@ -7,7 +7,7 @@ const QuoteSchema = (config, intl) => {
   ]);
 
   return {
-    title: 'Block settings',
+    title: intl.formatMessage(messages.settingsTitle),
     required: ['quote'],
     fieldsets: [
       {
