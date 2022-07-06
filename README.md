@@ -6,7 +6,7 @@
 i) update main/mrs.developer.json
 ```bash
 {
-     "volto-download-block": {
+     "volto-quote-block": {
          "url": "git@github.com:itonboard/volto-quote-block.git",
          "path": "src",
          "package": "@itonboard/volto-quote-block",
